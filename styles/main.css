@@ -6,22 +6,22 @@
 
 @font-face {
     font-family: lato-regular;
-    src: url(../fonts/Lato-Regular.ttf);
+    src: url(./fonts/Lato-Regular.ttf);
 }
 
 @font-face {
     font-family: lato-bold;
-    src: url(../fonts/Lato-Bold.ttf);
+    src: url(./fonts/Lato-Bold.ttf);
 }
 
 @font-face {
     font-family: eurofurence-regular;
-    src: url(../fonts/eurofurence-regular.ttf);
+    src: url(./fonts/eurofurence-regular.ttf);
 }
 
 @font-face {
     font-family: champagne-limousines;
-    src: url(../fonts/Champagne-Limousines.ttf);
+    src: url(./fonts/Champagne-Limousines.ttf);
 }
 
 /* BASE */

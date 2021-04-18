@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/main.css">
+    <title>Blogin</title>
+
+</head>
+
+<body>
+    <div class="main-screen" onclick="toggleMenu()"></div>
+
+    <header class="main-header">
+        <div class="header-content container flex space-between align-center">
+            <div class="logo flex">Blogin</div>
+            <ul class="main-nav flex clean-list">
+                <li  class="tab-nav active"><a href="#">Jurnal</a></li>
+                <li class="tab-nav"><a href="#">About</a></li>
+                <li class="tab-nav"><a href="#">Work</a></li>
+                <li class="tab-nav"><a href="#">Contact</a></li>
+            </ul>
+            <button class="btn-menu" onclick="toggleMenu()">☰</button>
+        </div>
+    </header>
+
+    <main class="main-content container">
+
+        <div class="post">
+                <img src="/images/Layer 2@1X.png" alt="" class="post-image">
+                <div class="post-content">
+                    <h2 class="post-title">DUIS AUTE IRURE DOLOR IN HENDRIT IN VOLUPTATE.</h2>
+                    <div  class="post-text">
+                        <p>
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo doconsequat, sunt in
+                            culpa qui officia deserunt mollit anim id est laborum. 
+                        </p>
+                        <p>
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur...
+                        </p>
+                    </div>
+                    <button class="btn-post">Continue Reading</button>
+                </div>
+        </div>
+
+        <div class="post">
+                <img src="/images/Layer 3@1X.png" alt="" class="post-image">
+                <div class="post-content">
+                    <h2 class="post-title">DUIS AUTE IRURE DOLOR IN HENDRIT IN VOLUPTATE.</h2>
+                    <div  class="post-text">
+                        <p>
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo doconsequat, sunt in
+                            culpa qui officia deserunt mollit anim id est laborum. 
+                        </p>
+                        <p>
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur...
+                        </p>
+                    </div>
+                    <button class="btn-post">Continue Reading</button>
+                </div>
+        </div>
+
+        <div class="post">
+                <img src="/images/Layer 4@1X.png" alt="" class="post-image">
+                <div class="post-content">
+                    <h2 class="post-title">DUIS AUTE IRURE DOLOR IN HENDRIT IN VOLUPTATE.</h2>
+                    <div  class="post-text">
+                        <p>
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo doconsequat, sunt in
+                            culpa qui officia deserunt mollit anim id est laborum. 
+                        </p>
+                        <p>
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur...
+                        </p>
+                    </div>
+                    <button class="btn-post">Continue Reading</button>
+                </div>
+        </div>
+
+        <section class="posts-nav flex space-between">
+            <span>
+                <a class="previous" href="">← PREVIOUS</a>
+            </span>
+            <a class="next" href="">NEXT →</a>
+        </section>
+
+    </main>
+    <footer class="main-footer">
+        <div class="footer-container container flex space-between align-center">
+            <div class="logo">Blogin</div>
+            <small>© 2014 Blogin.com - All Rights Reserved - Find more free Templates at Pixelhint.com</small>
+            <ul class="social-nav flex clean-list">
+                <li><a class="facebook" href="#">
+                        <img class="facebook" src="/images/CompositeLayerFb@1X.png" alt="">
+                    </a></li>
+                <li><a class="twitter" href="#">
+                        <img class="facebook" src="/images/CompositeLayerTw@1X.png" alt="">
+                    </a></li>
+                <li><a class="instagram" href="#">
+                        <img class="facebook" src="/images/CompositeLayerBe@1X.png" alt="">
+                    </a></li>
+                <li><a class="instagram" href="#">
+                        <img class="facebook" src="/images/CompositeLayerGlobe@1X.png" alt="">
+                    </a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            document.body.classList.toggle('menu-open')
+        }
+    </script>
+</body>
+
+</html>
